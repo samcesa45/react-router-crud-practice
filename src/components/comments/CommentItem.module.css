@@ -1,0 +1,22 @@
+.item {
+	margin: 1rem 0;
+	color: #4a5555;
+	font-size: 1.25rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid teal;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item button {
+	font: inherit;
+	background-color: #eb8d8d;
+	border-color: #eb8d8d;
+}
+
+.item button:hover,
+.item button:active {
+	background-color: #ee7c7c;
+	border-color: #ee7c7c;
+}
